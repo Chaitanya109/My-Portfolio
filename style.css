@@ -1,0 +1,130 @@
+*{
+    font-family: Book Antiqua ;
+}
+body{
+    margin: 0;
+    font-size: 15px ;
+    background-image: url(pg2.avif);
+    text-align: center;
+    background-position: center;
+}
+header h1{
+    margin: 0;
+    text-align: center;
+    position: right;
+}
+header{
+    background-color: #2196f3;
+    height: 100vh;
+    font-family: Book Antiqua ;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    align-items: center;
+}
+header{
+     background-color: black;
+    padding: 2px;
+    width: 99%;
+    height: 130px;
+    position: absolute;
+    top: 0;   
+    left: 0;  
+}
+main{
+    margin-top: 150px;   /* same height as header */
+}
+.id{
+    text-align: justify;      /* Makes text justified */
+    line-height: 1.8;         /* Adds line spacing */
+    letter-spacing: 0.5px;    /* Optional: improves readability */
+    margin: 20px 80px;
+}
+.chaith{
+    text-align: justify;
+    line-height: 1.8;         
+    letter-spacing: 0.5px;   
+    margin: 20px 80px;
+}
+.ajay{
+     text-align: justify;
+    line-height: 1.8;         
+    letter-spacing: 0.5px;   
+    margin: 20px 80px;
+}
+h2{
+    color: black;
+    font-family: Book Antiqua;
+    font-size: 3rem;
+}
+.button{
+     width: 140px;
+     height: 40px;
+     border: none;
+     border-radius: 15px;
+     cursor: pointer;
+}
+section{
+    background-color: white;
+    height: 80vh;
+    border: 1px solid grey;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 50px;
+    text-align: center;
+    font-family: Book Antiqua;
+    line-height: 1.8;         
+    letter-spacing: 0.5px;
+}
+img{
+    background-image: url("Sri\ Chaitanya\ \(1\).jpg");
+    background-position: center;
+}
+.Submit{
+     width: 140px;
+     height: 40px;
+     border: none;
+     border-radius: 15px;
+     cursor: pointer;
+     color: white;
+    background-color: #2196f3;
+}
+.Submit:hover{
+    color: white;
+    background-color: #2196f3;
+}
+.input{
+    border-radius: 5px;
+    border: 1px solid    lightgrey;
+    height: 25px;
+}
+footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.fix{
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    background-color: #2196f3;
+}
+.foot{
+    background: black;
+    text-align: center;
+    padding: 20px;
+    background-position: center;
+}
+footer p{
+    text-align: center;
+    justify-content: center;    
+    align-items: center;
+    display: flex;
+}
